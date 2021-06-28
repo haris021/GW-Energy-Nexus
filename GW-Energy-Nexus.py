@@ -77,6 +77,11 @@ def main():
 
     ### Draw Plot on Sidebar --- Electric TW extraction
     plot_gw_pumping_sidebar(df_sidebar)
+    st.sidebar.markdown("Developed by Taimoor Akhtar")
+    url = 'https://www.rethinkingindus.com/'
+    st.sidebar.image("logo.png", width=100)
+    st.sidebar.markdown("RethinkingIndus")
+    st.sidebar.markdown(url)
 
     ### Create Groundwater Extraction Summary including Altair plot
     st.subheader("Groundwater Extraction Sources")
@@ -305,11 +310,7 @@ def plot_num_tubewells(df_tw, color_1, color_2, bar_type, title, ylabel, xloc=0)
         bargap=0.15  # gap between bars of adjacent location coordinates.
     )
     st.plotly_chart(fig)
-st.sidebar.markdown("Developed by Taimoor Akhtar")
-url = 'https://www.rethinkingindus.com/'
-st.sidebar.image("logo.png", width=100)
-st.sidebar.markdown("RethinkingIndus")
-st.sidebar.markdown(url)
+
 
 if __name__ == '__main__':
     main()
