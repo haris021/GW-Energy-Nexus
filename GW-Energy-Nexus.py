@@ -77,11 +77,11 @@ def main():
 
     ### Draw Plot on Sidebar --- Electric TW extraction
     plot_gw_pumping_sidebar(df_sidebar)
-    st.sidebar.markdown("Developed by Taimoor Akhtar")
-    url = 'https://www.rethinkingindus.com/'
-    st.sidebar.image("logo.png", width=100)
-    st.sidebar.markdown("RethinkingIndus")
-    st.sidebar.markdown(url)
+    #st.sidebar.markdown("Developed by Taimoor Akhtar")
+    #url = 'https://www.rethinkingindus.com/'
+    #st.sidebar.image("logo.png", width=100)
+    #st.sidebar.markdown("RethinkingIndus")
+    #st.sidebar.markdown(url)
 
     ### Create Groundwater Extraction Summary including Altair plot
     st.subheader("Groundwater Extraction Sources")
