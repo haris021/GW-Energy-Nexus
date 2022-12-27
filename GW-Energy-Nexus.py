@@ -77,7 +77,7 @@ def main():
 
     ### Draw Plot on Sidebar --- Electric TW extraction
     plot_gw_pumping_sidebar(df_sidebar)
-    st.sidebar.markdown("Developed by Taimoor Akhtar")
+    st.sidebar.markdown("Developed by Taimoor Akhtar & Haris Mushtaq")
     #url = 'https://www.rethinkingindus.com/'
     st.sidebar.image("logo.png", width=100)
     #st.sidebar.markdown("RethinkingIndus")
